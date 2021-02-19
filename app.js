@@ -16,7 +16,7 @@ app.use("/product", (req, res, next) => {
   console.log(req.body);
   res.redirect("/");
 });
-//HELLO
+
 app.use("/hello", (req, res, next) => {
   res.send("<h1>Hello!! </h1>");
 });
